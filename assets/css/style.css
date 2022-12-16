@@ -10,10 +10,15 @@
 --------------------------------------------------------------*/
 * {
   /* border: solid 1px red; */
+  box-sizing: border-box;
+}
+
+p{
+  color: #000;
 }
 
 .img-big {
-  min-width: 140%;
+  min-width: 100%;
 }
 
 .img--round {
