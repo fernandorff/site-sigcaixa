@@ -13,12 +13,17 @@
   box-sizing: border-box;
 }
 
+.btn-bottom {
+  position: absolute;
+  bottom: 20px;
+}
+
 p{
   color: #000;
 }
 
 .img-big {
-  min-width: 100%;
+  min-width: 120%;
 }
 
 .img--round {
