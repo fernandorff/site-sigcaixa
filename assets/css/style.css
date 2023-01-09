@@ -13,18 +13,17 @@
   box-sizing: border-box;
 }
 
-.price-card-hover{
-  transition: all 0.5s ease-in-out;;
+.price-card-hover {
+  transition: all 0.5s ease-in-out;
 }
 
-.price-card-hover:hover{
+/* .price-card-hover:hover {
   transform: scale(1.05) !important;
   transition: all 0.25s ease-in-out;
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.25) !important;
-  
-  }
+} */
 
-p{
+p {
   color: #000;
 }
 
@@ -43,7 +42,7 @@ p{
 .round-left {
   border-radius: 60% 0 0 60%;
   /* border: solid 1px black; */
-  background-color: #EEE;
+  background-color: #eee;
 }
 
 .card-accountant-content {
@@ -123,7 +122,6 @@ section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 @media (max-width: 500px) {
   .section-heading {
@@ -277,7 +275,6 @@ section {
 .testimonials-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #2d71a1;
 }
-
 
 /* CTA Section */
 .cta-section {
@@ -937,8 +934,6 @@ section {
     margin-left: 0;
   }
 }
-
-
 
 /*--------------------------------------------------------------
 # Pricing
